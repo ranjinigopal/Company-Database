@@ -1,0 +1,54 @@
+﻿body {
+  
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#AddBtn{
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: rgb(246, 108, 108);
+    }
+
+    button:active {
+        background-color: rgb(178, 63, 63);
+    }
+
+
+.form-label {
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+div {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.calendar-custom {
+    border: 2px solid #4CAF50;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px;
+}
